@@ -1,0 +1,17 @@
+E:\Project Work\Project\2019\WPFAPP\WPFAPP\bin\Debug\WPFAPP.exe.config
+E:\Project Work\Project\2019\WPFAPP\WPFAPP\bin\Debug\WPFAPP.exe
+E:\Project Work\Project\2019\WPFAPP\WPFAPP\bin\Debug\WPFAPP.pdb
+E:\Project Work\Project\2019\WPFAPP\WPFAPP\bin\Debug\WPFAPP.xml
+E:\Project Work\Project\2019\WPFAPP\WPFAPP\obj\Debug\WPFAPP.vbprojAssemblyReference.cache
+E:\Project Work\Project\2019\WPFAPP\WPFAPP\obj\Debug\MainWindow.g.vb
+E:\Project Work\Project\2019\WPFAPP\WPFAPP\obj\Debug\Application.g.vb
+E:\Project Work\Project\2019\WPFAPP\WPFAPP\obj\Debug\WPFAPP_MarkupCompile.cache
+E:\Project Work\Project\2019\WPFAPP\WPFAPP\obj\Debug\WPFAPP_MarkupCompile.lref
+E:\Project Work\Project\2019\WPFAPP\WPFAPP\obj\Debug\MainWindow.baml
+E:\Project Work\Project\2019\WPFAPP\WPFAPP\obj\Debug\WPFAPP.g.resources
+E:\Project Work\Project\2019\WPFAPP\WPFAPP\obj\Debug\WPFAPP.Resources.resources
+E:\Project Work\Project\2019\WPFAPP\WPFAPP\obj\Debug\WPFAPP.vbproj.GenerateResource.cache
+E:\Project Work\Project\2019\WPFAPP\WPFAPP\obj\Debug\WPFAPP.vbproj.CoreCompileInputs.cache
+E:\Project Work\Project\2019\WPFAPP\WPFAPP\obj\Debug\WPFAPP.exe
+E:\Project Work\Project\2019\WPFAPP\WPFAPP\obj\Debug\WPFAPP.xml
+E:\Project Work\Project\2019\WPFAPP\WPFAPP\obj\Debug\WPFAPP.pdb

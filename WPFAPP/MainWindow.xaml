@@ -1,0 +1,73 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFAPP"
+        mc:Ignorable="d" Icon="AppLogo.png"
+        Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TabControl>
+            <TabItem Header="RSP">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50" />
+                        <RowDefinition Height="40" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="30" />
+                    </Grid.RowDefinitions>
+
+                    <StackPanel Grid.Row="0" Orientation="Horizontal">
+                        <TextBlock Margin="10" Height="25" Text="ID"></TextBlock>
+                        <TextBox Margin="10" x:Name="txtPlayerID" Height="25" Width="150" />
+                        <TextBlock Margin="10" Height="25" Text="Events"></TextBlock>
+                        <ComboBox x:Name="cEvents" Height="25" Width="150"/>
+                        <TextBlock Margin="10" Height="25" Text="No Of Seat(s)"></TextBlock>
+                        <TextBox Margin="10" x:Name="txtNOS" Height="25" Width="150" />
+                        <Button Content="Search" Name="btnSearch" Height="25" Width="75" />
+                    </StackPanel>
+                    <StackPanel Grid.Row="1" Orientation="Horizontal">
+                        <TextBlock Margin="10" Foreground="Red" Height="25" Name="tbError"></TextBlock>
+                    </StackPanel>
+                    <StackPanel Grid.Row="2" Orientation="Horizontal">
+                        <DataGrid Name="dgSeats" Margin="20" ItemsSource="{Binding}"  AutoGenerateColumns="True"  Width="750">
+                        </DataGrid>
+                    </StackPanel>
+                    <StackPanel Grid.Row="3" HorizontalAlignment="Right" Orientation="Horizontal">
+                        <Button Content="Save" Name="btnSave"  Height="25" Width="75" />
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Check">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50" />
+                        <RowDefinition Height="40" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="30" />
+                    </Grid.RowDefinitions>
+
+                    <StackPanel Grid.Row="0" Orientation="Horizontal">
+                        <TextBlock Margin="10" Height="25" Text="ID"></TextBlock>
+                        <TextBox Margin="10" x:Name="txtcPlayerID" Height="25" Width="150" />
+                        <TextBlock Margin="10" Height="25" Text="Events"></TextBlock>
+                        <ComboBox x:Name="ccEvents" Height="25" Width="150"/>
+                        <TextBlock Margin="10" Height="25" Text="No Of Seat(s)"></TextBlock>
+                        <TextBox Margin="10" x:Name="txtcNOS" Height="25" Width="150" />
+                        <Button Content="Search" Name="btncSearch" Height="25" Width="75"  />
+                    </StackPanel>
+                    <StackPanel Grid.Row="1" Orientation="Horizontal">
+                        <TextBlock Margin="10" Foreground="Red" Height="25" Name="tbcError"></TextBlock>
+                    </StackPanel>
+                    <StackPanel Grid.Row="2" Orientation="Horizontal">
+                        <DataGrid Name="dgcSeats" Margin="20" ItemsSource="{Binding}"  AutoGenerateColumns="True"  Width="750">
+                        </DataGrid>
+                    </StackPanel>
+                    <StackPanel Grid.Row="3" HorizontalAlignment="Right" Orientation="Horizontal">
+                        <Button Content="Check" Name="btnCheck"  Height="25" Width="75" Margin="0,3,0,0" VerticalAlignment="Top" />
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
